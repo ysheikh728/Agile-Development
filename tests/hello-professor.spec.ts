@@ -14,7 +14,7 @@ test('Post Deployment Test', async ({ page }) => {
   const headingText = await headingElement.innerText();
 
   // Assertions
-  expect(pageUrl).toBe('https://your-live-site-url.com/'); // Replace with your live site URL
+  expect(pageUrl).toBe('http://localhost:3001/'); // Replace with your live site URL
   expect(pageTitle).toBe('Hello Professor');
   expect(headingText).toBe('Hello Professor!');
 });
