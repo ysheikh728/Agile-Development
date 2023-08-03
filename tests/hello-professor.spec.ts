@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 test('Post Deployment Test', async ({ page }) => {
   // Arrange: Set up the initial state and environment for the test
-  await page.goto('http://localhost:3001'); // Replace with your live site URL
+  await page.goto('http://localhost:3001/'); // Replace with your live site URL
 
   // Act: Perform the action or operations that need to be tested
   await page.click('text=Hello Professor!');
